@@ -1,0 +1,9 @@
+p {
+    background-color: aquamarine; 
+    border-radius: 5px;
+    padding: 10px
+ }
+ 
+ span {
+     font-weight: bold;
+ }

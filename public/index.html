@@ -1,0 +1,30 @@
+<!-- Client Side -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Geolocate must be done by each 'client' -->
+    <h1>Data Selfie App</h1>
+
+    <div><a href="/index.html">Check In</a> | <a href="/checkins/index.html">View Checkins</a></div>
+
+    <p>latitude: <span id="latitude"></span>º<br />
+    latitude: <span id="longitude"></span>º<br /></p>
+    
+    <p>
+        The weather here is <span id="summary"></span> with a temperature of <span id="temperature"></span>º F.<br />
+        The concentration of particulate matter (<span id="aq_parameter"></span>) is <span id="aq_value"></span> <span id="aq_units"></span> last read on  <span id="aq_date"></span>.   
+    </p>
+    
+
+    <script src="sketch.js"></script>
+
+    
+</body>
+</html>
